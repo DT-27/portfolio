@@ -24,7 +24,7 @@ app.post('/submit-form', (req, res) => {
      secure: true,
      auth: {
       user: 'durotimiebenezer@gmail.com',
-      pass: 'taga nhzn tekj jjns',
+      pass: 'process.env.password',
      },
 
            debug: true,
